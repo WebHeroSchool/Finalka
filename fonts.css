@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('fonts/Gilroy-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: ExtraBold;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('fonts/Gilroy-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-ExtraBold.woff') format('woff');
+  font-weight: 900;
+  font-style: black;
+}

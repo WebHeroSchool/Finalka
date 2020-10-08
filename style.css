@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  .wrapper{
+  background-color:  #3030C1;
+  border: dashed 1px red;
+  display: flex;
+  width: 1440px;
+}
+.logo {
+  background: url('Logo.svg');
+  background-repeat: no-repeat;
+  padding: 60px 0 120px 0;
+  margin: 60px 0 0 130px;
+}
+.text {
+  margin: 0 2px 0 130px;
+}
+.picture {
+  background: url('JPG.svg');
+  background-repeat: no-repeat;
+  padding:464px 564px 0 0;
+  margin: 187px 130px 190px 2px;
+}
+
+.header__text {
+  font: 800 45px/55px 'Gilroy';
+  max-width: 600px;
+  color:#fff;
+  margin-bottom: 32px;
+}
+
+.header__text_big {
+  font: 800 30px/37px 'Gilroy';
+  max-width: 353px;
+  color:#FFCC33;
+  margin-bottom: 10px;
+}
+
+.header__text_small {
+  font: 300 20px/23px 'Gilroy';
+  color: #FFFFFF;
+  max-width: 450px;
+  margin-bottom: 32px;
+}
+
+.main__button {
+  display: flex;
+  font: 900 20px/24px 'Montserrat';
+  text-decoration: none;
+  color: #3030C1;
+  background: #FFCC33;
+  width: 216px;
+  height: 54px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.main {
+  width: 1440px;
+}
+
+ .plan {
+   font:800 40px/49px 'Gilroy';
+   text-align: center;
+ }
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  width: 82%;
+  margin: auto;
+  text-align: center;
+  }
+
+.main__title {
+  font: 800 30px/37px 'Gilroy';
+  color: #3030C1;
+  max-width: 313px;
+}
+
+.main__description {
+  font:800 20px/25px 'Gilroy';
+  max-width: 249PX;
+  padding: 0 32px;
+}
+.plan__1 {
+  background: url('medal.svg');
+  background-repeat: no-repeat;
+  padding:115px 0 0 0;
+  margin: 77px 20px 55px 0;
+  background-position: top center;
+}
+
+.plan__2 {
+  background: url('case.svg');
+  background-repeat: no-repeat;
+  padding:115px 0 0 0;
+  margin: 77px 20px 55px 0;
+  background-position: top center;
+}
+
+.plan__3 {
+  background: url('money.svg');
+  background-repeat: no-repeat;
+  padding:115px 0 0 0;
+  margin: 77px 0 55px 0;
+  background-position: top center;
+}
+
+.title {
+  width: 28%;
+  margin: auto;
+  font:800 40px/49px 'Gilroy';
+  text-align: center;
+}
+
+.title__description {
+  width: 69%;
+  margin:auto;
+  text-align:center;
+  font: 300 30px/35px 'Gilroy';
+}
